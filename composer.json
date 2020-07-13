@@ -1,0 +1,17 @@
+{
+    "name": "dshelar/test-app",
+    "description": "test desc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dshelar",
+            "email": "dshelar@xento.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"dshelar\\test-app\\": "src/"}
+    },
+    "require": {}
+}
